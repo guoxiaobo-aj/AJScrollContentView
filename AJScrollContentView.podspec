@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.author       = { "guoxiaobo" => "gxbxemail@gmail.com" }
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/guoxiaobo-aj/AJScrollContentView.git", :tag => "0.0.1" }
-  s.source_files = "AJScrollContentViewLib", "AJScrollContentViewLib/**/*.{h,m}"
+  s.source_files = "AJScrollContentViewLib", "AJScrollContentViewLib/*.{h,m}"
 
 end
