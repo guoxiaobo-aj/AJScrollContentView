@@ -26,6 +26,12 @@ NS_ASSUME_NONNULL_BEGIN
 /// 页面是否可手动滑动 - 默认可滑动
 @property (nonatomic, assign) BOOL canScroll;
 
+
+/// 初始化
+/// @param frame frame
+/// @param childVCs 子控制器数组
+/// @param parentVC 父类vc
+/// @param delegate 代理对象
 - (instancetype)initWithFrame:(CGRect)frame childVCs:(NSArray *)childVCs parentVC:(UIViewController *)parentVC delegate:(id<AJPageContentViewDelegate>)delegate;
 
 @end
