@@ -1,6 +1,6 @@
 # AJScrollContentView
 
-![badge-languages](https://img.shields.io/badge/language-ObjC-orange.svg) ![badge-platforms](https://img.shields.io/badge/platforms-iOS8-lightgrey.svg) [![Build Status](https://travis-ci.org/shunFSKi/FSScrollContentView.svg?branch=master)](https://travis-ci.org/shunFSKi/FSScrollContentView) [![CocoaPods](https://img.shields.io/cocoapods/v/AJScrollContentView.svg)]() [![CocoaPods](https://img.shields.io/cocoapods/dt/FSScrollContentView.svg)]() [![CocoaPods](https://img.shields.io/cocoapods/l/FSScrollContentView.svg)]()
+![badge-languages](https://img.shields.io/badge/language-ObjC-orange.svg) ![badge-platforms](https://img.shields.io/badge/platforms-iOS8-lightgrey.svg) ![Build Status](https://travis-ci.org/shunFSKi/FSScrollContentView.svg?branch=master) ![CocoaPods](https://img.shields.io/cocoapods/v/AJScrollContentView.svg) ![CocoaPods](https://img.shields.io/cocoapods/dt/FSScrollContentView.svg) ![CocoaPods](https://img.shields.io/cocoapods/l/FSScrollContentView.svg)
 
 仿网易新闻，点击顶部标题，改变下面内容页面；以及，滑动内容页面，改变顶部标题的功能。
 
@@ -15,7 +15,7 @@
 
 ## 效果图
 
-![几种类型的效果图](https://raw.githubusercontent.com/guoxiaobo-aj/ImageResources/master/aj_scroll_contentview.gif)
+<img src="https://raw.githubusercontent.com/guoxiaobo-aj/ImageResources/master/aj_scroll_contentview.gif" style="width: 300px;">
 
 ## 要求
 
@@ -128,6 +128,10 @@ typedef enum : NSUInteger {
 
 ## 使用实例
 
+在使用到的VC中，直接引入头文件
+
+`#import "AJScrollContentView.h"`
+
 ```
 - (void)viewDidLoad {
 	NSArray *pageTitles = @[@"关注", @"推荐", @"热点", @"北京", @"新时代", @"视频", @"图片", @"问答", @"懂车帝", @"军事"];
@@ -175,5 +179,5 @@ typedef enum : NSUInteger {
 
 * 微博：[@夜雨寒I](https://weibo.com/p/1005055104640336)
 * Email：gxbxemail@163.com
-* 公众号：![](https://raw.githubusercontent.com/guoxiaobo-aj/ImageResources/master/wechat-qcode.png)
+* 公众号：<img src="https://raw.githubusercontent.com/guoxiaobo-aj/ImageResources/master/wechat-qcode.png" style="width: 250px; display: block;">
 * 个人博客：[https://guoxb.com](https://guoxb.com)
