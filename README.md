@@ -15,7 +15,7 @@
 
 ## 效果图
 
-<img src="https://raw.githubusercontent.com/guoxiaobo-aj/ImageResources/master/aj_scroll_contentview.gif" style="width: 300px;">
+<img src="https://raw.githubusercontent.com/guoxiaobo-aj/ImageResources/master/aj_scroll_contentview.gif" width="300">
 
 ## 要求
 
@@ -179,5 +179,7 @@ typedef enum : NSUInteger {
 
 * 微博：[@夜雨寒I](https://weibo.com/p/1005055104640336)
 * Email：gxbxemail@163.com
-* 公众号：<img src="https://raw.githubusercontent.com/guoxiaobo-aj/ImageResources/master/wechat-qcode.png" style="width: 250px; display: block;">
 * 个人博客：[https://guoxb.com](https://guoxb.com)
+* 公众号：
+
+<img src="https://raw.githubusercontent.com/guoxiaobo-aj/ImageResources/master/wechat-qcode.png" width="250">
